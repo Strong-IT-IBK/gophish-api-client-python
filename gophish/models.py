@@ -212,6 +212,14 @@ class Result(Model):
         'last_name': None,
         'email': None,
         'position': None,
+        'department': None,
+        'dep_number': None,
+        'age': None,
+        'gender': None,
+        'desc': None,
+        'site': None,
+        'phone': None,
+        'degree': None,
         'ip': None,
         'latitude': None,
         'longitude': None,
@@ -264,7 +272,15 @@ class User(Model):
         'first_name': None,
         'last_name': None,
         'email': None,
-        'position': None
+        'position': None,
+        'department': None,
+        'dep_number': None,
+        'age': None,
+        'gender': None,
+        'desc': None,
+        'site': None,
+        'phone': None,
+        'degree': None
     }
 
     def __init__(self, **kwargs):
